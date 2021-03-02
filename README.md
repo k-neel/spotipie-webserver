@@ -23,6 +23,6 @@ mongod
 The following env variables are supported:
 - `ENVIRONMENT`: default: 'production'. Anything else is treated as 'dev'
 - `MONGODB_URI`: Your database URI.
-- `MONGODB_URI_LOCAL`: Your database Local URI (eg. 'mongodb://localhost:27017/your-db-name').
+- `MONGODB_URI_LOCAL`: Your database Local URI (eg. 'mongodb://localhost:27017/db-name').
 - `MONGODB_URI_LOCAL`: An integer of consisting of your owner ID
 
