@@ -3,7 +3,7 @@ Node.js API Server for requesting authentication token from Spotify for [Spotipi
 
 Can be found on telegram as [Spotipiebot](https://t.me/Spotipiebot).
 
-# Getting started
+### Getting started
 - Install dependencies
 ```
 cd <project_name>
