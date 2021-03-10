@@ -9,7 +9,7 @@ Can be found on telegram as [Spotipiebot](https://t.me/Spotipiebot).
 cd <project_name>
 npm install
 ```
-This will install all necessary python packages.
+This will install all necessary dependencies.
 
 - Getting TypeScript
 ```
