@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "requests spotify auth tokens.",
   "main": "src/server.ts",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/server.js",
