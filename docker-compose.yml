@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app:
+    container_name: spotipie-authserver
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT}
+      - MONGODB_URI=${MONGODB_URI}
+      - BOT_URL=${BOT_URL}
+    ports:
+      - 6969:6969
